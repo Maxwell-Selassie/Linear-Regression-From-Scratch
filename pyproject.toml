@@ -1,0 +1,19 @@
+[project]
+name = "linear-regression-from-scratch"
+version = "0.1.0"
+description = "Implementation of linear regression from scratch"
+authors = [
+    {name = "Maxwell Selassie"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "numpy (>=2.3.2,<3.0.0)",
+    "pandas (>=2.3.2,<3.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
